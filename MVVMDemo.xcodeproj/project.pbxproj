@@ -13,6 +13,7 @@
 		18BD9C952CA2A88E00351538 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 18BD9C942CA2A88E00351538 /* Base */; };
 		18BD9C972CA2A88F00351538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BD9C962CA2A88F00351538 /* Assets.xcassets */; };
 		18BD9C9A2CA2A88F00351538 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 18BD9C992CA2A88F00351538 /* Base */; };
+		18BD9CA62CA2AADE00351538 /* MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD9CA52CA2AADE00351538 /* MVVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		18BD9C962CA2A88F00351538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18BD9C992CA2A88F00351538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18BD9C9B2CA2A88F00351538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BD9CA52CA2AADE00351538 /* MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,10 @@
 		18BD9C8C2CA2A88E00351538 /* MVVMDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18BD9CA42CA2AAD300351538 /* Demo */,
+				18BD9CA32CA2AACC00351538 /* MVVM */,
+				18BD9CA22CA2AAC500351538 /* DataModel */,
+				18BD9CA12CA2AABE00351538 /* Extenstion */,
 				18BD9C8D2CA2A88E00351538 /* AppDelegate.swift */,
 				18BD9C8F2CA2A88E00351538 /* SceneDelegate.swift */,
 				18BD9C912CA2A88E00351538 /* ViewController.swift */,
@@ -65,6 +71,35 @@
 				18BD9C9B2CA2A88F00351538 /* Info.plist */,
 			);
 			path = MVVMDemo;
+			sourceTree = "<group>";
+		};
+		18BD9CA12CA2AABE00351538 /* Extenstion */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extenstion;
+			sourceTree = "<group>";
+		};
+		18BD9CA22CA2AAC500351538 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		18BD9CA32CA2AACC00351538 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		18BD9CA42CA2AAD300351538 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				18BD9CA52CA2AADE00351538 /* MVVM.swift */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +176,7 @@
 				18BD9C922CA2A88E00351538 /* ViewController.swift in Sources */,
 				18BD9C8E2CA2A88E00351538 /* AppDelegate.swift in Sources */,
 				18BD9C902CA2A88E00351538 /* SceneDelegate.swift in Sources */,
+				18BD9CA62CA2AADE00351538 /* MVVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
