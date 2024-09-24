@@ -6,3 +6,18 @@
 //
 
 import Foundation
+
+
+class Demo{
+    func retutnStrng(){
+        retutnStrng()
+    }
+}
+
+class Github{
+    
+}
+class erro{
+    
+    
+}
